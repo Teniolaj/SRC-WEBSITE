@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>L224_SRC SPORTS ACADEMY</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ham-menu">
+        <img src="/images/school-logo.jpg" alt="Click to expand" class="school-logo" />
+        <h3>Pentecost Univeristy</h3>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="/pages/blogPage.html">BLOG</a></li>
+          <li><a href="/pages/registrationPage.html">REGISTER</a></li>
+          <li><a href="/pages/aboutPage.html">ABOUT</a></li>
+          <li><a href="/pages/newEventsPage.html">NEW ACTIVITIES</a></li>
+          <li><a href="/pages/bookingPage.html">BOOK ONLINE</a></li>
+          <li><a href="/pages/eventsPage.html">EVENTS</a></li>
+        </ul>
+      </nav>
+
+      <div class="overlay" id="overlay"></div>
+
+      <div class="homepage-hero">
+        <div class="welcome-section">
+          <h1>Welcome to SRC Sports Academy</h1>
+          <p>Your gateway to professional sports training</p>
+        </div>
+
+        <div class="video-container">
+          <h1>Pentecost University Sports Highlights</h1>
+          <video controls autoplay loop>
+            <source src="/videos/Banner-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
+
+      <div class="hero-content">
+        <h1>Welcome to SRC Sports Academy</h1>
+        <p>Your gateway to professional sports training</p>
+      </div>
+
+      <section class="sports-offered">
+        <h2>Sports Currently Offered</h2>
+        <div class="Offered-sports-container">
+          <div class="Offered-sport-wrapper">
+            <img
+              src="/images/SRCballet.jpeg"
+              alt="Ballet"
+              class="Offered-sport-img"
+            />
+            <h3 class="sport-name">Ballet</h3>
+          </div>
+          <div class="Offered-sport-wrapper">
+            <img
+              src="/images/SRCfootball.jpeg"
+              alt="Football"
+              class="Offered-sport-img"
+            />
+            <h3 class="sport-name">Football</h3>
+          </div>
+          <div class="Offered-sport-wrapper">
+            <img
+              src="/images/SRCgymnastics.jpeg"
+              alt="Gymnastics"
+              class="Offered-sport-img"
+            />
+            <h3 class="sport-name">Gymnastics</h3>
+          </div>
+          <div class="Offered-sport-wrapper">
+            <img
+              src="/images/SRChandball.jpeg"
+              alt="Handball"
+              class="Offered-sport-img"
+            />
+            <h3 class="sport-name">Handball</h3>
+          </div>
+          <div class="Offered-sport-wrapper">
+            <img
+              src="/images/SRCrugbyjpeg.jpeg"
+              alt="Rugby"
+              class="Offered-sport-img"
+            />
+            <h3 class="sport-name">Rugby</h3>
+          </div>
+          <div class="Offered-sport-wrapper">
+            <img
+              src="/images/SRCtennis.jpeg"
+              alt="Tennis"
+              class="Offered-sport-img"
+            />
+            <h3 class="sport-name">Tennis</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking">
+        <h2>Book Your Training</h2>
+        <p>
+          Ready to take your skills to the next level? Book a training session
+          with our expert coaches today. Whether you're a beginner or a seasoned
+          athlete, we have the perfect program to help you achieve your goals.
+          Click the button below to get started!
+        </p>
+        <a href="/pages/bookingPage.html" class="booking-button">
+          <button>Book Now</button>
+        </a>
+      </section>
+
+      <footer>
+        <div class="footer-container">
+          <div class="left">
+            <h3>About SRC Sports Academy</h3>
+            <p>
+              The SRC Sports Academy is dedicated to promoting sports excellence
+              and fostering a sense of community through various sporting
+              activities. Funded by community and national sports bodies, we
+              offer a range of sports programs to enhance physical fitness and
+              teamwork.
+            </p>
+          </div>
+
+          <div class="middle">
+            <h3>Contact Us</h3>
+            <p>
+              P. O. Box KN 1739<br />
+              Kaneshie, Accra<br />
+              info@pentvars.edu.gh<br />
+              Email: sports@university.edu
+            </p>
+          </div>
+
+          <div class="right">
+            <h3>Follow Us</h3>
+            <div class="social-container">
+              <a href="" class="social-link">Facebook</a>
+              <a href="" class="social-link">Twitter</a>
+              <a href="" class="social-link">Instagram</a>
+              <a href="" class="social-link">YouTube</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-form">
+          <h3 id="subscribe">Subscribe to our Newsletter</h3>
+          <form action="subscribe.php" method="post" class="newsletter-form">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+              id="news-letter-input"
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 SRC Sports Academy. All Rights Reserved.</p>
+          <p>
+            <a href="privacy-policy.html">Privacy Policy</a> |
+            <a href="terms-of-service.html">Terms of Service</a>
+          </p>
+        </div>
+
+        <div id="visitor-count"></div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
